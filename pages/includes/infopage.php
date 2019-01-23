@@ -16,12 +16,12 @@ else {
 		case "about";
 			$CURRENT_PAGE = "About";
 			$PAGE_TITLE = "A Propos";
-			$PAGE_DESCRIPTION = "Je suis une personne génialissime !!!";
+			$PAGE_DESCRIPTION = "Description personnelle";
 			break;
 		case "contact";
 			$CURRENT_PAGE = "Contact";
-			$PAGE_TITLE = " Contacte moi !";
-			$PAGE_DESCRIPTION = "Donne moi ton argent steuplé";
+			$PAGE_TITLE = " Contactez moi !";
+			$PAGE_DESCRIPTION = "Formulaire de contact";
 			break;
 		case "users";
 			$CURRENT_PAGE = "Users";
@@ -35,8 +35,8 @@ else {
 			break;	
 		default;
 			$CURRENT_PAGE = "Home";
-			$PAGE_TITLE = "TARBA";
-			$PAGE_DESCRIPTION = "WESH";
+			$PAGE_TITLE = "Bienvenue";
+			$PAGE_DESCRIPTION = "Page d'accueil";
 			break;	
 	}
 
